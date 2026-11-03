@@ -1,0 +1,58 @@
+import { ModuleCategory } from '../types/problem';
+
+export const MODULES: ModuleCategory[] = [
+  {
+    id: 'bilangan',
+    title: 'Modul 1: Sistem Bilangan Riil & Rasionalitas',
+    shortTitle: 'Bilangan Riil',
+    badge: '10 - 20 Poin',
+    description: 'Penyederhanaan radikal akar kuadrat, identitas selisih kuadrat, dan pembuktian rasional vs irasional.',
+    totalPoints: 20,
+    questionCount: 2,
+  },
+  {
+    id: 'trigonometri',
+    title: 'Modul 2: Trigonometri Sudut Istimewa & Lingkaran Satuan',
+    shortTitle: 'Trigonometri',
+    badge: '10 - 20 Poin',
+    description: 'Evaluasi sudut istimewa, konversi radian ke derajat, titik unit circle kuadran II, dan pembuktian identitas.',
+    totalPoints: 55,
+    questionCount: 4,
+  },
+  {
+    id: 'fungsi',
+    title: 'Modul 3: Aljabar Fungsi, Invers & Aritmatika Modulo',
+    shortTitle: 'Fungsi & Modulo',
+    badge: '10 - 20 Poin',
+    description: 'Fungsi komposisi, pencarian fungsi invers pecahan linier, dan definisi modulo negatif Euclidean.',
+    totalPoints: 45,
+    questionCount: 3,
+  },
+  {
+    id: 'limit',
+    title: 'Modul 4: Teorema Limit Lengkap',
+    shortTitle: 'Teorema Limit',
+    badge: '10 - 20 Poin',
+    description: 'Limit substitusi aljabar, pemfaktoran bentuk tak tentu 0/0, limit trigonometri, limit di tak hingga, dan limit sepihak.',
+    totalPoints: 80,
+    questionCount: 5,
+  },
+  {
+    id: 'kontinuitas',
+    title: 'Modul 5: Kontinuitas Fungsi Sepotong (Piecewise)',
+    shortTitle: 'Kontinuitas',
+    badge: '25 Poin',
+    description: 'Analisis 3 syarat kontinuitas Cauchy pada sambungan fungsi sepotong dan penyelesaian variabel parameter.',
+    totalPoints: 25,
+    questionCount: 1,
+  },
+  {
+    id: 'uts-resmi',
+    title: 'Modul 6: Arsip Soal Asli UTS UMS 2025/2026',
+    shortTitle: 'Arsip UTS UMS',
+    badge: '100 Poin Total',
+    description: 'Naskah ujian resmi FKI UMS dari Penguji Diah Priyawati, S.T., M.Eng & Helmi Imaduddin, S.Kom., M.Eng.',
+    totalPoints: 100,
+    questionCount: 4,
+  },
+];
